@@ -1,15 +1,41 @@
 header {
-    background: color #006437;
-    color: #006437;
-    padding: 5px;
+    background-color: #006437;
+    color: white ;
+    padding: 10px;
+    
 }
+
 header h1 {
-margin-bottom: 20px;
-text-align: center;
-border-style: solid;
-  border-color: #008000;
-  background-color: #006437;
-color: #d1eee1;
-text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    color: #d1eee1;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #004d2a;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+}
+
+nav a:hover {
+    background-color: #006437;
+    border-radius: 5px;
+}
+
+header img {
+width: 100px;
+display: block;
+margin: auto;
+
+
 }
 
