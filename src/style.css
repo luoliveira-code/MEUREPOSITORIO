@@ -10,7 +10,15 @@ header h1 {
     color: #d1eee1;
     
 }
-
+/*parte da história */
+.historia {
+    background-color: #006437;
+    color: white;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 1000px;
+}
 nav {
     display: flex;
     justify-content: center;
@@ -36,6 +44,120 @@ width: 100px;
 display: block;
 margin: auto;
 
-
 }
 
+main h2 {
+    color: #006437;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+/* Estilização da lista */
+ul {
+    background-color: #006437;  
+    color: white;                
+    padding: 30px 50px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 1000px;
+}
+
+li {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: white;              
+    line-height: 1.6;
+}
+
+li strong {
+    color:#d1eee1;             
+    font-weight: bold;
+}
+
+
+main h3 {
+    color: #006437;           
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+img {
+
+width: 500px;
+height: 300px;
+object-fit: cover;
+justify-content: center;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+}
+/* Seção Ídolos */
+.idolos-secao {
+    background-color: #006437;
+    color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Lista de Ídolos */
+.idolos-lista {
+    list-style: none;
+    padding: 0;
+    margin: 30px auto;
+    max-width: 800px;
+}
+
+.idolos-lista li {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.idolos-lista li span {
+    font-size: 16px;
+    color: #333;
+}
+
+.idolos-lista li strong {
+    color: #006437;
+    font-size: 18px;
+}
+
+/* Imagem do Ídolo */
+.idolo-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid #006437;
+    object-fit: cover;
+}
+
+/*imagem + texto lado */
+.container-imagem-texto {
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+/* Texto do retrospecto */
+.texto-retrospecto {
+    flex: 1;
+}
+
+.imagem-trofeu {
+width: 200px;
+height: 300px;
+}
