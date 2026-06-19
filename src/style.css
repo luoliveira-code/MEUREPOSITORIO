@@ -1,3 +1,4 @@
+/* cabeçalho e navbar */
 header {
     background-color: #006437;
     color: white ;
@@ -10,7 +11,7 @@ header h1 {
     color: #d1eee1;
     
 }
-/*parte da história */
+
 .historia {
     background-color: #006437;
     color: white;
